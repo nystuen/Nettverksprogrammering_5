@@ -1,0 +1,8 @@
+Hva er optimistisk låsing?
+
+- Optimistisk låsing er en standard i Java Persistance
+  som sikrer at en rad ikke oppdateres samtidig.
+
+- Det innføres et felt hver rad i tabellen som inkrementeres
+  for hver aksess. Hvis denne ikke er endret fra du har aksessert
+  dataen til du skal oppdatere den, er det trygt å oppdatere daten.
